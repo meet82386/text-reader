@@ -1,0 +1,37 @@
+body {
+    background: #f1f5f9;
+}
+
+.wrapper {
+    width: 300px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(87, 210, 87);
+    color: #f1f5f9;
+    border: 2px solid rgb(87, 210, 87);
+    padding: 4%;
+    margin: 4%;
+    width: 70%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    border: 2px solid rgb(87, 210, 87);
+    background-color: #f1f5f9;
+    color: black;
+}
+
+a {
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:blueviolet;
+}

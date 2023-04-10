@@ -1,0 +1,19 @@
+{
+    "name": "Text Reader",
+    "description": "Paragraph to speech converter.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "icons": {
+        "48": "/images/i_48.png",
+        "96": "/images/i_96.png"
+    },
+    "permissions": ["storage","activeTab", "scripting"]
+}
